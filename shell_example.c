@@ -50,7 +50,6 @@ void eval(char *cmdline)
     int bg;              /* Should the job run in bg or fg? */
     pid_t pid;           /* Process id */
 
-    //phraseIO(buf, cmdline, input, output);
     strcpy(buf,cmdline);
     
     
